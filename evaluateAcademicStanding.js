@@ -15,7 +15,7 @@ function evaluateAcademicStanding(GPA, major) {
 //   - For "Engineering", display "Your academic standing is good. Focus on your core engineering courses."
 //   - For "Business", display "Your academic standing is good. Explore internship opportunities in the business field."
 //   - For any other major, display "Your academic standing is good. Plan your course schedule accordingly."
-//   - Additionally, if GPA is greater than or equal to 3.5, display "Your academic standing is good. Plan your course schedule accordingly."
+//   - Additionally, if GPA is greater than or equal to 3.5, display "With your GPA, you may be eligible for honors program consideration."
 
 // - If academicStanding is "Average", use a switch statement to provide advice based on the major:
 //   - For "Computer Science", display "Your academic standing is average. Consider seeking help from tutors for challenging courses."
