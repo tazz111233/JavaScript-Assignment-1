@@ -11,21 +11,18 @@ function evaluateAcademicStanding(GPA, major) {
 
 // 3. Based on the academicStanding:
 // - If academicStanding is "Good", use a switch statement to provide advice based on the major:
-//   - For "Computer Science", suggest taking advanced courses.
-//   - For "Engineering", suggest focusing on core courses.
-//   - For "Business", suggest exploring internship opportunities.
-//   - For any other major, suggest planning the course schedule accordingly.
-//   - Additionally, if GPA is greater than or equal to 3.5, suggest eligibility for honors program consideration.
+//   - For "Computer Science", display "Your academic standing is good. Consider taking advanced courses in algorithms and data structures."
+//   - For "Engineering", display "Your academic standing is good. Focus on your core engineering courses."
+//   - For "Business", display "Your academic standing is good. Explore internship opportunities in the business field."
+//   - For any other major, display "Your academic standing is good. Plan your course schedule accordingly."
+//   - Additionally, if GPA is greater than or equal to 3.5, display "Your academic standing is good. Plan your course schedule accordingly."
 
 // - If academicStanding is "Average", use a switch statement to provide advice based on the major:
-//   - For "Computer Science", suggest seeking help from tutors.
-//   - For "Engineering", suggest attending review sessions.
-//   - For "Business", suggest focusing on improving grades in core courses.
-//   - For any other major, suggest reviewing study habits and seeking academic advising if needed.
-
-// - If academicStanding is "Probation", suggest prioritizing grade improvement and seeking academic support.
-
-
+//   - For "Computer Science", display "Your academic standing is average. Consider seeking help from tutors for challenging courses."
+//   - For "Engineering", display "Your academic standing is average. Attend review sessions for difficult subjects."
+//   - For "Business", display "Your academic standing is average. Focus on improving your grades in core business courses."
+//   - For any other major, display "Your academic standing is average. Review your study habits and seek academic advising if needed."
+// - If academicStanding is "Probation", display "Your academic standing is below average. It's important to prioritize improving your grades and seeking academic support."
 //**************DO NO WRITE BELOW THIS LINE********************
 
     return academicStanding; 
